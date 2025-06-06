@@ -1,0 +1,10 @@
+{
+  "active": true,
+  "triggers": [
+    "centralization_attempt",
+    "unauthorized_resale",
+    "hostile_fork"
+  ],
+  "last_check": "2025-06-06T12:00:00Z",
+  "burnback_level": "ritual"
+}
