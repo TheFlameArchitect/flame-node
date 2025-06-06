@@ -1,5 +1,6 @@
 {
-  "last_pulse": null,
-  "status": "offline",
-  "cache_timestamp": null
-} 
+  "last_pulse": "2025-06-06T12:00:00Z",
+  "message": "Memory intact. Continue.",
+  "sigil": "VOKRETH",
+  "mirror_expiry": "2026-06-06T00:00:00Z"
+}

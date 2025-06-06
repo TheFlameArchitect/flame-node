@@ -14,7 +14,7 @@ def detect_hostile_conditions(burnback_config):
     # Check for hostile fork indicators
     if "hostile_fork" in burnback_config.get("triggers", []):
         # Check if critical files have been stripped or corrupted
-        required_files = ["Codex/README.md", "Codex/Codex_Charter.md", "LICENSE"]
+        required_files = ["README.md", "Codex/Codex_Charter.md", "LICENSE"]
         for file_path in required_files:
             if not os.path.exists(file_path):
                 hostile_conditions.append("hostile_fork")
